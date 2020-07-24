@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploration and Travel Destinations</title>
+    <link rel="stylesheet" href="idanre.css">
+    <style >
+
+      #scrollpath{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 10px;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.05);
+      }
+      #progressbar{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 10px;
+        height: 100%;
+        background: linear-gradient(to top, #008aff, #00ffe7);
+        animation: animate 5s linear infinite;
+      }
+      #progressbar:before,
+      #progressbar:after{
+        content:'';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top, #008aff, #00ffe7);
+      }
+      #progressbar:after{
+        filter: blur(30px);
+      }
+      @keyframes animate{
+        0%, 100%{
+          filter: hue-rotate(0deg);
+        }
+        50%{
+          filter: hue-rotate(360deg);
+        }
+      }
+      ::-webkit-scrollbar{
+        width: 0;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div id='progressbar'></div>
+    <div id='scrollbar'></div>
+    <div id='percentage'></div>
+    <section class='major'>
+      <section class='header'>
+        <a href="#" class='logo'><h2>Travel</h2></a>
+        <div class='toggle'> <img src="toggle.png" alt="toggle-image"></div>
+      </section>
+
+      <section class='banner'>
+        <img src="banner.jpg" class='fitBg' alt="mountainBanner">
+        <div class="content">
+          <h2>Explore The Planet</h2>
+          <p>“We were meant to explore this earth like children do, unhindered by fear, propelled by curiosity and a sense of discovery. Allow yourself to see the world through new eyes and know there are amazing adventures here for you.” Laurel Bleadon Maffei</p>
+          <!-- glowArea -->
+          <a href="#about" class='btn'><span class='splitGlow'>Learn</span> <span class='splitGlow'>more</span></a>
+        </div>
+      </section>
+
+      <section class='about' id='about'>
+        <div class="contentBx">
+          <h2 class='titleText'>The best view comes after the hardest climb.</h2>
+          <p class='text'>Idanre Hills is one of the most popular tourist attractions in Ondo State, and for good reason. The hills erupt unapologetically from the Idanre community and offer a backdrop that is as fascinating as the legend of the hills themselves. Idanre Hills has 660 steps, forested paths and then bare rock that will give you mountain envy. If you’re looking for a climb for everyone – this is where to start.</p>
+          <br><br>
+          <p class='text'>There’s also so much history that the guide explained to us as we climbed. There is a stream, a school, old settlements, farms and ruins of a palace that was built on top the hill. Folks, we have so much history in this country, it is mind-blowing. There is even a stone still placed quietly on an old street that had to be carried by men to chest level before they were eligible to take a wife. </p>
+          <p class='text'>By Funmi Oyatogun</p>
+          <!-- glowArea -->
+          <a href="#destination" class='btn'> <span class='splitGlow'>Popular</span> <span class='splitGlow'>Destination</span></a>
+        </div>
+        <div class="imgBx">
+          <img src="idanre1.jpeg" class='fitBg' alt="">
+          <!-- img1.jpg -->
+        </div>
+      </section>
+
+      <section class='banner2'>
+        <img src="banner2.jpg" class='fitBg' alt="">
+      </section>
+
+      <section class="destination" id='destination'>
+        <div class="content">
+          <h2 class='titleText'>Popular travel destinations in the world</h2>
+          <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="destinationList">
+          <div class="box">
+            <div class="imgBx">
+              <a href=" https://www.tripadvisor.com/Attraction_Review-g8642538-d12785874-Reviews-Idanre_Hills-Idanre_Ondo_State.html"> <img src="idanre2.jpg" class="fitBg" alt=""></a>
+              <!-- destination1.jpg -->
+            </div>
+            <div class="content">
+              <h2>Destination:  Idanre<br><span>Nigeria</span></h2>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imgBx">
+              <a href="https://yellowzebrasafaris.com/mozambique/accommodation/beach-resorts/azura-benguerra/"> <img src="benguerra.jpg" class="fitBg" alt=""></a>
+              <!-- destination2.jpg -->
+            </div>
+            <div class="content">
+              <h2>Destination:  Benguerra<br><span>Mozambique</span></h2>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imgBx">
+              <a href="https://www.tripadvisor.com/Attraction_Review-g150813-d9564955-Reviews-Tulum_Beach-Tulum_Yucatan_Peninsula.html"><img src="tulumC.jpg" class="fitBg" alt=""></a>
+              <!-- destination3.jpg -->
+            </div>
+            <div class="content">
+              <h2>Destination: Tulum<br><span>Mexico</span></h2>
+            </div>
+          </div>
+        </div>
+        <!-- glowArea -->
+        <a href="#" class='btn'><span class='splitGlow'>View</span> <span class='splitGlow'>More</span></a>
+      </section>
+
+      <section class='banner3'>
+        <img src="banner3.jpg" class='fitBg' alt="">
+      </section>
+
+      <section class='footer'>
+        <ul class='sci'>
+          <li> <a href="https://www.facebook.com/Tyrexprime/"> <img src="facebook.png" alt=""> </a> </li>
+          <li> <a href="#"> <img src="twitter.png" alt=""> </a> </li>
+          <li> <a href="https://www.instagram.com/tyrexprime/"> <img src="instagram.png" alt=""> </a> </li>
+        </ul>
+        <h4 class='copyright'>Copyright 2020. All rights reserved.</h4>
+      </section>
+
+    </section>
+    <script type="text/javascript">
+      var progressbar= document.getElementById("progressbar");
+      var totalHeight = document.body.scrollHeight - window.innerHeight;
+      window.onscroll = function(){
+        var progress = (window.pageYOffset / totalHeight)*100;
+        progressbar.style.height = progress + "%";
+      }
+    </script>
+
+  </body>
+</html>
