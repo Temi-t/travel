@@ -181,6 +181,10 @@ section{
 .destination .content{
   text-align: center;
 }
+.destination .content a{
+  text-decoration: none;
+  color: #fff;
+}
 .destination .destinationList{
   position: relative;
   display: flex;
