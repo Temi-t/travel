@@ -122,7 +122,6 @@ section{
 .titleText{
   text-align: justify;
   text-justify: inter-word;
-
   font-weight: 600;
   color: #fff;
   font-size: 2em;
@@ -295,6 +294,9 @@ section{
   }
   .footer .sci li a img {
     max-width: 30px;
+  }
+  .titleText{
+    font-size: 1.5em;
   }
 
 }
