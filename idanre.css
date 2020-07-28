@@ -126,12 +126,15 @@ section{
   color: #fff;
   font-size: 2em;
   margin-bottom: 10px;
+  letter-spacing: normal;
 }
 .text{
   color: #fff;
   font-size: 1em;
   text-align: justify;
   text-justify: inter-word;
+  letter-spacing: normal;
+  font-weight: 3em;
 }
 .about .imgBx{
   position: relative;
@@ -295,11 +298,15 @@ section{
   .footer .sci li a img {
     max-width: 30px;
   }
-  .titleText{
+  .titleText {
     font-size: 1.5em;
+  }
+  .text {
+    font-size: 0.9em;
   }
 
 }
+
 .major{
   padding-right: 20px;
   padding-left: 0;
