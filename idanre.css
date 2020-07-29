@@ -26,7 +26,7 @@ section{
   padding-bottom: 20px;
 }
 .header .logo{
-  color: #fff;
+  color: orange;
   text-decoration: none;
   font-size: 1.2em;
 }
@@ -94,9 +94,6 @@ section{
 .btn:hover span:nth-child(2){
   margin-left: 5px;
 }
-
-
-
 
 .fitBg{
   position: absolute;
